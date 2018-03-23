@@ -1,0 +1,5 @@
+job:
+  script: echo 'hoge' >> hoge.txt
+  artifacts:
+    paths:
+    - hoge.txt
